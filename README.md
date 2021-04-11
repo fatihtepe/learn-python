@@ -1,1 +1,1 @@
-# Everything about Python
+Everything about Python
