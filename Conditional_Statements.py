@@ -177,9 +177,14 @@
     # print('ben')  # Truthy and Falsey 
 
 
+# if True:
+#     print('it is true')
+
+
 # if 0:
 #     print('ben') 
-
+# else:
+#     print('false')
 # if None:
 #     print('armut')
 
@@ -286,3 +291,37 @@
 #     print(f'the largest number is {b}') 
 # else:
 #     print(f'the largest number is {c}')
+
+# minced = True
+# bread = True
+# #greens
+# lettuce = False
+# pepper = False
+# grocery_store = True
+# hamburger = (minced and grocery_store and bread) and (lettuce or pepper)
+# if hamburger:
+#     print("Bon Appetit")
+# else :
+#     print("There is no hamburger")
+
+
+# print(1 == 1)
+# print("henry" == "Henry")
+# print(12 < 12.1)
+# print("hard" != "easy")
+
+# set1 = set('TWELVE PLUS ONE')
+# set2 = set('ELEVEN PLUS TWO')
+
+# if set1 == set2:
+#     print('sets are equal...')
+
+# convert = input('Enter Yes or No: ').title().strip() == 'Yes'
+# print('you entered: ', convert)
+
+xyz = int(input('Plese enter a number: '))
+
+if xyz % 2 == 0:
+    print('{} is even'.format(xyz))
+else:
+    print('{} is odd'.format(xyz))
