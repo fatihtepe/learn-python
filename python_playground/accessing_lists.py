@@ -1,3 +1,6 @@
+import os
+os.system('clear')
+
 # ourlist = ['Google', 'Facebook', 'Youtube']
 # print(len(ourlist))
 
